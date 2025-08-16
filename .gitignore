@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# Gradle
+build/
+
+# Node.js / React
+node_modules/
+build/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
