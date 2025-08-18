@@ -9,10 +9,16 @@ const Navbar = () => {
       <div>
         <img
           src={Logo}
-          alt="yolobank"
+          alt="Ezeebank"
           className="w-16 h-16 rounded-full object-cover border-2 border-gray-100"
         />
       </div>
+      <NavLink
+          to="/"
+          className="text-gray-200 hover:bg-gray-700/[0.2] px-4 py-2 rounded-lg font-semibold transition-all duration-300"
+        >
+          Home
+      </NavLink>
 
       {/* Menu Links */}
       <div className="flex flex-row gap-4 md:gap-6 items-center">
